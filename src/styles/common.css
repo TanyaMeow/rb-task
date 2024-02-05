@@ -1,0 +1,17 @@
+.sign_up {
+    width: 196px;
+    height: 46px;
+    border-radius: 50px;
+}
+
+.green {
+    border: none;
+    color: #fff;
+    background-color: #0dbc91;
+}
+
+.more {
+    background-color: transparent;
+    border: 1px solid #0dbc91;
+    color: #0dbc91;
+}

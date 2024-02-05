@@ -1,0 +1,13 @@
+.greet_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f8fbfa;
+
+    margin-bottom: 100px;
+}
+
+.info_greeting {
+    width: 416px;
+}

@@ -1,0 +1,67 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.connection {
+    width: 1014px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_address {
+    height: 38px;
+    padding-left: 24px;
+    width: 133px;
+}
+
+.city,
+.address {
+    font-size: 14px;
+    margin: 0 0 0 20px;
+}
+
+.address {
+    color: #868686;
+}
+
+.header_left {
+    display: flex;
+}
+
+.map_icon {
+    position: absolute;
+}
+
+.header_contact {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+    margin-right: 35px;
+}
+
+.number {
+    padding-left: 7px;
+}
+
+.navigation {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1FA181;
+}
+
+.nav {
+    text-decoration: none;
+    color: #FFF;
+    padding-right: 30px;
+}

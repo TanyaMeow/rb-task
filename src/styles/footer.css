@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #08664F;
+
+    height: 144px;
+    width: 100%;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_footer {
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
