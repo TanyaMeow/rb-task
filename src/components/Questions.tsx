@@ -6,7 +6,7 @@ const questions = [
     },
     {
         title: 'Заголовок часто задаваемого вопроса с двумя абзацами',
-        text: 'Enim lectus pretium pellentesque dignissim nam massa justo dolor. Lectus pharetra molestie ac urna lorem. Nibh et vestibulum ullamcorper elit.' + ' <br> <br> ' +
+        text: 'Enim lectus pretium pellentesque dignissim nam massa justo dolor. Lectus pharetra molestie ac urna lorem. Nibh et vestibulum ullamcorper elit.'  +
             'Massa arcu volutpat blandit augue nibh nisl fames. Sodales pharetra nisi quis purus lacinia. Sapien cras posuere dolor tincidunt quis sed adipiscing.'
     },
     {
