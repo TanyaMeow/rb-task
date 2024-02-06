@@ -46,6 +46,7 @@
 
 .header_contact {
     display: flex;
+    align-items: center;
 }
 
 .contacts {
@@ -70,4 +71,8 @@
     text-decoration: none;
     color: #FFF;
     padding-right: 30px;
+}
+
+.nav:last-child {
+    padding: 0;
 }
