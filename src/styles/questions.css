@@ -3,29 +3,45 @@
     justify-content: center;
 }
 
+.question_container {
+    margin-top: 42px;
+}
+
 .question {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
 
     background-color: #F8FBFA;
     border-radius: 5px;
 
-    padding: 40px 45px 40px 40px;;
-    margin-top: 20px;
+    padding: 40px 157px 40px 40px;;
+    margin-top: 23px;
+
+    position: relative;
+
+    & img {
+        position: absolute;
+        right: 42px;
+    }
 }
 
 .question_block-title {
     text-align: center;
+    color: #364844;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .question_title {
     margin: 0;
     font-size: 22px;
+    font-weight: 700;
+    color: #364844;
 }
 
 .question_text {
     display: none;
     margin: 15px 0 0 0;
     font-size: 16px;
+    color: #364844;
 }
