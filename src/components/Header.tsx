@@ -1,9 +1,10 @@
 import {Connection} from "./Connection";
 import {Navigation} from "./Navigation";
+import {Popup} from "./Popup";
 
 export function Header() {
     return (
-        <div className='header'>
+        <header className='header'>
             <div className='header_connection'>
                 <Connection />
             </div>
@@ -12,6 +13,6 @@ export function Header() {
                     <Navigation/>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }

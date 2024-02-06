@@ -7,7 +7,7 @@ import logo from '../image/logo-light.svg';
 
 export function Footer() {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <div className='wrapper'>
                 <div className='footer_content'>
                     <img src={logo} alt=""/>
@@ -21,6 +21,6 @@ export function Footer() {
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
