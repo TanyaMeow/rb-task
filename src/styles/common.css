@@ -5,13 +5,28 @@
 }
 
 .green {
+    letter-spacing: 1px;
     border: none;
     color: #fff;
     background-color: #0dbc91;
 }
 
+.green:hover {
+    background-color: #00D29F;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 .more {
+    letter-spacing: 1px;
     background-color: transparent;
     border: 1px solid #0dbc91;
     color: #0dbc91;
+}
+
+.more:hover {
+    background-color: #0DBC91;
+    color: #FFF;
+    transition: 0.5s;
+    cursor: pointer;
 }
