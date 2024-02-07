@@ -18,11 +18,11 @@ export function Connection() {
                 </div>
                 <div className='header_contact'>
                     <div className='contacts'>
-                        <img src={whatsapp} alt=""/>
+                        <img className='whatsapp' src={whatsapp} alt=""/>
                         <p className='number'>+7(863) 000 00 00</p>
                     </div>
                     <Button text='Записаться на прием'
-                            class='green'/>
+                            class='header-button green'/>
                 </div>
             </div>
         </div>
