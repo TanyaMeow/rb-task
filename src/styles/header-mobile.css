@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+    .header_connection {
+        position: relative;
+    }
+}
+
+@media (max-width: 540px) {
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+
+        background-color: #FFFFFF;
+    }
+
+    .header_connection {
+        position: relative;
+    }
+
+    .burger_menu {
+        margin: 20px 26px 19px 17px;
+    }
+
+    .open_menu {
+        display: block;
+
+        width: 37px;
+        height: 4px;
+
+        background-color: #1FA181;
+    }
+
+    .open_menu:after {
+        content: '';
+        position: absolute;
+        top: 20px;
+        width: 37px;
+        height: 4px;
+
+        background-color: #1FA181;
+    }
+
+    .open_menu:before {
+        content: '';
+        position: absolute;
+        bottom: 20px;
+        width: 37px;
+        height: 4px;
+
+        background-color: #1FA181;
+    }
+
+    .close_menu {
+        display: none;
+        width: 37px;
+        height: 4px;
+        transform: rotate(45deg);
+
+        background-color: #1FA181;
+    }
+
+    .close_menu:after {
+        content: '';
+        position: absolute;
+        transform: rotate(-90deg);
+        width: 37px;
+        height: 4px;
+
+        background-color: #1FA181;
+    }
+
+    .address,
+    .map_icon,
+    .whatsapp {
+        display: none;
+    }
+
+    .contacts {
+        position: absolute;
+        right: 21px;
+        top: 0;
+        margin: 0;
+
+        & p.number {
+            font-weight: 700;
+        }
+    }
+
+    .header_address {
+        top: 37px;
+        right: 19px;
+        position: absolute;
+    }
+
+    .navigation {
+        display: none;
+        /*display: flex;*/
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 65px;
+        position: fixed;
+        z-index: 3;
+        background-color: #45927FE5;
+        backdrop-filter: blur(2px);
+        width: 100%;
+        height: 100%;
+    }
+
+    .container_nav {
+        line-height: 33px;
+        padding: 48px 0 0 2px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_header {
+        width: 62px;
+    }
+
+    .header-button.sign_up {
+        display: none;
+
+        background-color: #FFFFFF;
+        color: #1FA181;
+        font-weight: 700;
+        letter-spacing: 0;
+
+        position: fixed;
+        top: 321px;
+        left: 17px;
+        z-index: 4;
+    }
+
+    .header-button.sign_up:hover {
+        background-color: #0DBC91;
+        color: #FFFFFF;
+    }
+
+}
