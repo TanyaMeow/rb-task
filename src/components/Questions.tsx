@@ -25,8 +25,8 @@ export function Questions() {
             <div className='wrapper'>
                 <h1 className='question_block-title'>Часто задаваемые вопросы</h1>
                 <div className='question_container'>
-                    {questions.map((question) =>
-                        <div className='question'>
+                    {questions.map((question, index: number) =>
+                        <div className='question' key={index}>
                             <div>
                                 <h1 className='question_title'>{question.title}</h1>
                                 <p className='question_text'>{question.text}</p>
