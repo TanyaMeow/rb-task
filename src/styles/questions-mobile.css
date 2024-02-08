@@ -1,0 +1,30 @@
+@media (max-width: 540px) {
+    .question {
+        padding: 24px 94px 24px 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    .question {
+        padding: 12px;
+        margin-top: 14px;
+    }
+
+    .question_block-title {
+        text-align: left;
+        font-size: 26px;
+    }
+
+    .question .question_text {
+        display: block;
+        font-size: 14px;
+    }
+
+    .question img {
+        display: none;
+    }
+
+    .question_title {
+        font-size: 18px;
+    }
+}
