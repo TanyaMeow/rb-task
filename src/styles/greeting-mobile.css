@@ -1,0 +1,36 @@
+@media (max-width: 540px) {
+    #root .wrapper {
+        width: 375px;
+    }
+
+    .greet_block {
+        height: 100%;
+        margin-top: 68px;
+        flex-direction: column-reverse;
+        align-items: normal;
+        margin-bottom: 35px;
+    }
+
+    .greet_image {
+        max-width: 100%;
+        display: block;
+
+        object-fit: contain;
+        position: relative;
+        top: 0;
+    }
+
+    .info_greeting {
+        height: 261px;
+    }
+
+    .greet_title {
+        width: 267px;
+        font-size: 26px;
+    }
+
+    .greet_description {
+        width: 340px;
+        font-size: 14px;
+    }
+}
