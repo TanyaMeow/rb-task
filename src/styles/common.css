@@ -30,3 +30,9 @@
     transition: 0.5s;
     cursor: pointer;
 }
+
+@media (max-width: 490px) {
+    .mobile {
+        width: 137px;
+    }
+}
