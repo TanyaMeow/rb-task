@@ -21,8 +21,8 @@ export function Slide() {
                     <p className='old_price'><s>3500₽</s></p>
                 </div>
                 <div className='slider_button'>
-                    <Button text='Записаться' class='green slide_button' />
-                    <Button text='Подробнее' class='more' />
+                    <Button text='Записаться' class='green slide_button mobile' />
+                    <Button text='Подробнее' class='more mobile' />
                 </div>
             </div>
             <img src={doctor} alt=""/></>
