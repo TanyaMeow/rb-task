@@ -1,4 +1,5 @@
-import bkcn from '../image/Rectangle 9.jpg';
+import bkcn950w from '../image/bkcn-950w.jpg';
+import bkcn375w from '../image/bkcn-375w.jpg';
 
 export function Greeting() {
     return (
@@ -11,7 +12,10 @@ export function Greeting() {
                         </div>
                     </div>
             </div>
-            <img className='greet_image' src={bkcn} alt=""/>
+            <picture>
+                <source srcSet={bkcn375w} media='(max-width: 380px)'/>
+                <img className='greet_image' src={bkcn950w} alt=""/>
+            </picture>
         </div>
     )
 }
