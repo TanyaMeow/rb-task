@@ -1,8 +1,4 @@
 @media (max-width: 540px) {
-    #root .wrapper {
-        width: 375px;
-    }
-
     .greet_block {
         height: 100%;
         margin-top: 68px;
