@@ -11,6 +11,7 @@ export function Popup() {
                     </div>
                     <div className='popup_body'>
                         <div className='popup_title'>
+                            <div className='close'></div>
                             <h1 className='title'>Запишитесь <br/> на приём онлайн</h1>
                             <p className='description'>Администратор свяжется с вами через WhatsApp в течение дня и уточнит детали</p>
                         </div>
@@ -20,7 +21,7 @@ export function Popup() {
                             <input className='form' type="text" placeholder='Электронная почта'/>
 
                             <div className='button_container'>
-                                <Button text='Записаться' class='green'/>
+                                <Button text='Записаться' class='green mobile'/>
                             </div>
                         </div>
                     </div>
