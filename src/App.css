@@ -1,25 +1,20 @@
 @import "styles/header.css";
+@import "styles/header-mobile.css";
 @import "styles/common.css";
 @import "styles/greeting.css";
+@import "styles/greeting-mobile.css";
 @import "styles/questions.css";
+@import "styles/questions-mobile.css";
 @import "styles/slider.css";
+@import "styles/slider-mobile.css";
 @import "styles/footer.css";
-
-body,
-html {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
+@import "styles/footer-mobile.css";
+@import "styles/popup.css";
+@import "styles/popup-mobile.css";
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-.wrapper {
-  font-family: 'PT Sans Caption', sans-serif;
-  width: 1014px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
