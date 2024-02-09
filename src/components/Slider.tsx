@@ -8,38 +8,41 @@ import {Slide} from "./Slide";
 
 export function Slider() {
     return (
-        <div className='slider'>
+        <div className='slider_block'>
             <div className='wrapper'>
-                <Swiper
-                    modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={50}
-                    slidesPerView={1}
-                    navigation={{
-                        nextEl: '.swiper_button-next',
-                        prevEl: '.swiper_button-prev'
-                    }}
-                    pagination={{type: 'fraction'}}
-                    breakpoints={{}}
-                >
-                    <SwiperSlide className='slide'>
-                        <Slide />
-                    </SwiperSlide>
-                    <SwiperSlide className='slide'>
-                        <Slide />
-                    </SwiperSlide>
-                    <SwiperSlide className='slide'>
-                        <Slide />
-                    </SwiperSlide>
-                    <SwiperSlide className='slide'>
-                        <Slide />
-                    </SwiperSlide>
-                </Swiper>
-                <div className='slider_bar'>
-                   <div className='swiper_button-prev'>
-                       <div className='arrow'></div>
-                   </div>
-                    <div className='swiper_button-next'>
-                        <div className='arrow'></div>
+                <div className='slider_container'>
+                    <Swiper
+                        modules={[Navigation, Pagination, Scrollbar, A11y]}
+                        spaceBetween={50}
+                        navigation={{
+                            nextEl: '.swiper_button-next',
+                            prevEl: '.swiper_button-prev'
+                        }}
+                        pagination={{type: 'fraction'}}
+                        slidesPerView={1}
+                        centeredSlides={true}
+                        height={640}
+                    >
+                        <SwiperSlide className='slide'>
+                            <Slide />
+                        </SwiperSlide>
+                        <SwiperSlide className='slide'>
+                            <Slide />
+                        </SwiperSlide>
+                        <SwiperSlide className='slide'>
+                            <Slide />
+                        </SwiperSlide>
+                        <SwiperSlide className='slide'>
+                            <Slide />
+                        </SwiperSlide>
+                    </Swiper>
+                    <div className='slider_bar'>
+                        <div className='swiper_button-prev'>
+                            <div className='arrow'></div>
+                        </div>
+                        <div className='swiper_button-next'>
+                            <div className='arrow'></div>
+                        </div>
                     </div>
                 </div>
             </div>
