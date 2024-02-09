@@ -22,6 +22,16 @@
     position: relative;
 
     & img {
+        margin: -8px;
+    }
+
+    & button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+
+        height: 24px;
+        width: 24px;
         position: absolute;
         right: 42px;
     }
@@ -42,7 +52,6 @@
 }
 
 .question_text {
-    display: none;
     margin: 15px 0 0 0;
     font-size: 16px;
     color: #364844;
