@@ -1,3 +1,14 @@
+@media (max-width: 980px) {
+    .info_greeting {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .info_block {
+        width: 374px;
+    }
+}
+
 @media (max-width: 540px) {
     .greet_block {
         height: 100%;
