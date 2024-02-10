@@ -5,11 +5,16 @@ import turn from "../image/Кнопка_Свернуть.svg";
 import purify from "dompurify";
 import {useState} from "react";
 
-export function Question(props: any) {
+interface QuestionProps {
+    title: string,
+    text: string
+}
+
+export function Question(props: QuestionProps) {
     const [active, setActive] = useState<boolean>(false);
 
     return (
-        <div className='question' key={props.id}>
+        <div className='question'>
             <div>
                 <h1 className='question_title'>{props.title}</h1>
                 <p style={{display: active ? 'block' : 'none'}}
