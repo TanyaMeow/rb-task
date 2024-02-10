@@ -22,8 +22,17 @@
 }
 
 @media (max-width: 540px) {
-    .popup_container img {
-        display: none;
+    .popup_block {
+        top: 66px;
+    }
+
+    .popup_container {
+        position: relative;
+        top: -96px;
+
+        & img {
+            display: none;
+        }
     }
 
     .close {

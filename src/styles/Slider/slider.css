@@ -1,9 +1,17 @@
-.slider {
+.slider_block {
     display: flex;
     justify-content: center;
+    height: 640px;
+}
 
-    width: 100%;
+.slider_content {
+    display: contents;
+}
+
+.slider_container {
     height: 440px;
+    width: calc(100vw - 17px);
+    max-width: 1140px;
 
     position: relative;
 }
@@ -17,12 +25,13 @@
     height: 440px;
 
     border-radius: 5px;
+}
 
-    & img {
-        position: absolute;
-        right: 0;
-        z-index: -2;
-    }
+.picture_slider {
+    position: absolute;
+    right: 0;
+    z-index: -2;
+    border-radius: 5px;
 }
 
 .slider_title {
@@ -45,10 +54,11 @@
 }
 
 .path {
-    width: 590px;
+    border-radius: 5px 0 0 5px;
+    width: 612px;
     height: 100%;
     background-color: #E2F0EF;
-    left: 22px;
+    left: 0;
     position: absolute;
     z-index: -1;
     clip-path: polygon(0 0,80% 0,100% 100%,0 100%);
@@ -100,10 +110,10 @@ li::marker {
     height: 500px!important;
 }
 
-.swiper-pagination {
+.swiper-pagination.swiper-pagination-fraction {
     font-size: 18px;
     color: #C0C0C0!important;
-    top: 479px!important;
+    top: 479px;
     letter-spacing: -2px;
 
     & .swiper-pagination-current {
@@ -114,7 +124,7 @@ li::marker {
 /*кнопки слайдера*/
 
 .slider_bar {
-    width: 1140px;
+    width: 100%;
     display: flex;
     justify-content: center;
 
@@ -128,6 +138,11 @@ li::marker {
     margin-right: 101px;
 }
 
+.swiper_button-next,
+.swiper_button-prev {
+    cursor: pointer;
+}
+
 .arrow {
     background-color: #e1e1e1;
     border-radius: 50px;
@@ -137,6 +152,24 @@ li::marker {
     position: relative;
     top: 20px;
     width: 34px;
+}
+
+.swiper_button-prev .arrow:hover,
+.swiper_button-next .arrow:hover {
+    content: '';
+    background-color: #0DBC91;
+}
+
+.swiper_button-prev .arrow:hover::after,
+.swiper_button-next .arrow:hover::after {
+    content: '';
+    background-color: #0DBC91;
+}
+
+.swiper_button-prev .arrow:hover::before,
+.swiper_button-next .arrow:hover::before {
+    content: '';
+    background-color: #0DBC91;
 }
 
 .swiper_button-prev .arrow:after {

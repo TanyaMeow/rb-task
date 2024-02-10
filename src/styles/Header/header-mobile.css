@@ -14,10 +14,6 @@
         background-color: #FFFFFF;
     }
 
-    .header_connection {
-        position: relative;
-    }
-
     .burger_menu {
         margin: 20px 26px 19px 17px;
     }
@@ -94,8 +90,6 @@
     }
 
     .navigation {
-        display: none;
-        /*display: flex;*/
         justify-content: flex-start;
         align-items: flex-start;
         top: 65px;
@@ -120,8 +114,6 @@
     }
 
     .header-button.sign_up {
-        display: none;
-
         background-color: #FFFFFF;
         color: #1FA181;
         font-weight: 700;

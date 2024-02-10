@@ -1,0 +1,129 @@
+@media (max-width: 1024px) {
+    .path {
+        width: 500px;
+    }
+}
+
+@media (max-width: 855px) {
+    .slider_block {
+        height: 700px;
+    }
+
+    .swiper-pagination.swiper-pagination-fraction {
+        top: 605px;
+    }
+
+    .slider_bar {
+        bottom: -197px;
+    }
+
+    .slider_content {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .slider_title {
+        width: 71%;
+
+        top: 205px;
+        position: absolute;
+        z-index: 1;
+        border-radius: 0 0 5px 5px;
+        background-color: #E2F0EF;
+
+        padding-left: 23px;
+    }
+
+    .title_slide {
+        margin-top: 22px;
+    }
+
+    .slider_button {
+        display: flex;
+        justify-content: center;
+        margin-top: 23px;
+        margin-bottom: 22px;
+    }
+
+    .swiper-slide.slide  {
+        display: block;
+        background-color: transparent;
+    }
+
+    .slider_container .swiper {
+        overflow: visible;
+    }
+
+    .path {
+        display: none;
+    }
+    
+    .picture_slider {
+        object-fit: contain;
+        width: 73.7%;
+        position: static;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .slider_button {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 540px) {
+    .slider_title {
+        top: 194px;
+    }
+
+    .swiper-pagination.swiper-pagination-fraction {
+        top: 620px;
+    }
+
+    .slider_bar {
+        bottom: -210px;
+    }
+}
+
+@media (max-width: 490px) {
+    .slider_title {
+        top: 205px;
+    }
+
+    .title_list {
+        margin: 15px 0 17px 0;
+
+        & li {
+            line-height: 23px;
+        }
+    }
+
+    .swiper-pagination.swiper-pagination-fraction {
+        top: 582px;
+    }
+
+    .slider_bar {
+        bottom: -174px;
+    }
+
+    .picture_slider {
+        width: 75.7%;
+    }
+
+    .title_slide {
+        font-size: 26px;
+    }
+
+    ul,
+    .subtitle_slide,
+    .old_price {
+        font-size: 14px;
+    }
+
+    .new_price {
+        font-size: 18px;
+    }
+}
