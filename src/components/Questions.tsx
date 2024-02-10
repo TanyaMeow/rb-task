@@ -32,7 +32,7 @@ export function Questions() {
                 <h1 className='question_block-title'>Часто задаваемые вопросы</h1>
                 <div className='question_container'>
                     {questions.map((question, index: number) =>
-                        <Question id={question.id}
+                        <Question key={question.id}
                                   text={question.text}
                                   title={question.title}/>
                     )}
