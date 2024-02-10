@@ -4,7 +4,7 @@ import logo from '../image/logo-dark.svg';
 import location from '../image/Vector.svg';
 import whatsapp from '../image/whatsapp 1.svg';
 
-export function Connection() {
+export function Connection(props: any) {
     return (
         <div className='wrapper'>
             <div className='connection'>
@@ -21,8 +21,16 @@ export function Connection() {
                         <img className='whatsapp' src={whatsapp} alt=""/>
                         <p className='number'>+7(863) 000 00 00</p>
                     </div>
-                    <Button text='Записаться на прием'
-                            class='header-button green'/>
+                    {!props.matches &&
+                        (<div style={{display: props.click ? 'block' : 'none'}}>
+                            <Button text='Записаться на прием'
+                                    class='header-button green'/>
+                        </div>)}
+                    {props.matches &&
+                        (<div>
+                            <Button text='Записаться на прием'
+                                    class='header-button green'/>
+                        </div>)}
                 </div>
             </div>
         </div>
