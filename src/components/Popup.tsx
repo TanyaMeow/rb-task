@@ -3,7 +3,7 @@ import {Button} from "./Button";
 import {useContext} from "react";
 import {PopupContext, SetPopupOpenContext} from "../context/PopupContext";
 
-export function Popup(props: any) {
+export function Popup() {
     const open: boolean = useContext(PopupContext);
     const setClosePopup = useContext(SetPopupOpenContext);
 
