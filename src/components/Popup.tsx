@@ -1,9 +1,13 @@
 import closeLight from '../image/button_close-light.svg';
 import {Button} from "./Button";
+import {useContext} from "react";
+import {PopupContext} from "../context/PopupContext";
 
-export function Popup() {
+export function Popup(props: any) {
+    const open: boolean = useContext(PopupContext);
+
     return (
-        <div className='popup_block'>
+        <div className='popup_block' style={{display: open ? 'flex' : 'none'}}>
             <div className='wrapper'>
                 <div className='popup_container'>
                     <div className='popup_close'>
@@ -17,8 +21,8 @@ export function Popup() {
                         </div>
                         <div className='popup_form'>
                             <input className='form' type="text" placeholder='ФИО'/>
-                            <input className='form' type="text" placeholder='Номер телефона'/>
-                            <input className='form' type="text" placeholder='Электронная почта'/>
+                            <input className='form' type="tel" placeholder='Номер телефона'/>
+                            <input className='form' type="email" placeholder='Электронная почта'/>
 
                             <div className='button_container'>
                                 <Button text='Записаться' class='green mobile'/>
