@@ -21,7 +21,6 @@ export function Slider() {
                         pagination={{type: 'fraction'}}
                         slidesPerView={1}
                         centeredSlides={true}
-                        height={640}
                     >
                         <SwiperSlide className='slide'>
                             <Slide />
