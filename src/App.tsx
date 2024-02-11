@@ -9,7 +9,7 @@ import {Popup} from "./components/Popup";
 import {PopupContext, SetPopupOpenContext} from "./context/PopupContext";
 
 function App() {
-    const [openPopup, setOpenPopup] = useState(false);
+    const [openPopup, setOpenPopup] = useState<boolean>(false);
     const open = (active: boolean) => {setOpenPopup(active)}
 
     return (
