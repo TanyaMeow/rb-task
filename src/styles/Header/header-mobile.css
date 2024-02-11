@@ -18,6 +18,8 @@
         width: 100%;
         z-index: 2;
 
+        align-items: flex-start;
+
         background-color: #FFFFFF;
     }
 
@@ -106,6 +108,8 @@
         backdrop-filter: blur(2px);
         width: 100%;
         height: 100%;
+
+        animation: menu 400ms ease-out;
     }
 
     .container_nav {
@@ -130,6 +134,8 @@
         top: 321px;
         left: 17px;
         z-index: 4;
+
+        animation: button 400ms ease-out;
     }
 
     .header-button.sign_up:hover {
@@ -137,4 +143,22 @@
         color: #FFFFFF;
     }
 
+}
+
+@keyframes menu {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes button {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
