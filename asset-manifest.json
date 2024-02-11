@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b86ab7b.css",
+    "main.js": "/static/js/main.1d8ec83f.js",
+    "static/js/592.1dc942d2.chunk.js": "/static/js/592.1dc942d2.chunk.js",
+    "static/media/bkcn-950w.jpg": "/static/media/bkcn-950w.08263c6b1b9f1d81b169.jpg",
+    "static/media/doctor-working-table 1.jpg": "/static/media/doctor-working-table 1.6155224dffbffd9ad29d.jpg",
+    "static/media/bkcn-375w.jpg": "/static/media/bkcn-375w.02456f6d027f6ab04314.jpg",
+    "static/media/telegram 1.svg": "/static/media/telegram 1.3289ac314a5613449e4c88d417590add.svg",
+    "static/media/logo-dark.svg": "/static/media/logo-dark.1c89117bd249f5007a7755876c8c2580.svg",
+    "static/media/logo-light.svg": "/static/media/logo-light.7b4192cdadb89c9a9e937cf56b8d80eb.svg",
+    "static/media/instagram 4 1.svg": "/static/media/instagram 4 1.000ad297abf8fc870bd6cb4479cb1c68.svg",
+    "static/media/whatsapp 1.svg": "/static/media/whatsapp 1.f9364dd77bdebd85d97d2af64f221432.svg",
+    "index.html": "/index.html",
+    "static/media/Vector.svg": "/static/media/Vector.8c43a1e3114d52fc560e8cfd49b5f5a6.svg",
+    "static/media/button_close-light.svg": "/static/media/button_close-light.ae607e0b49a4910b0a4186c90bec8a8d.svg",
+    "static/media/Кнопка _Развернуть_.svg": "/static/media/Кнопка _Развернуть_.3293e87110244c75e32e77482f9347c1.svg",
+    "static/media/Кнопка_Свернуть.svg": "/static/media/Кнопка_Свернуть.ea19c6c05631eb9a0318545a60922aeb.svg",
+    "main.9b86ab7b.css.map": "/static/css/main.9b86ab7b.css.map",
+    "main.1d8ec83f.js.map": "/static/js/main.1d8ec83f.js.map",
+    "592.1dc942d2.chunk.js.map": "/static/js/592.1dc942d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b86ab7b.css",
+    "static/js/main.1d8ec83f.js"
+  ]
+}
