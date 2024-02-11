@@ -8,7 +8,7 @@ export function Header() {
 
     useEffect(() => {
         window.matchMedia(
-            "(min-width: 768px)").addEventListener('change',
+            "(min-width: 540px)").addEventListener('change',
             (e) => setMatches(e.matches)
         );
     })
