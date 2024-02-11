@@ -4,7 +4,12 @@ import logo from '../image/logo-dark.svg';
 import location from '../image/Vector.svg';
 import whatsapp from '../image/whatsapp 1.svg';
 
-export function Connection(props: any) {
+interface ConnectionProps {
+    click: boolean,
+    matches: boolean
+}
+
+export function Connection(props: ConnectionProps) {
     return (
         <div className='wrapper'>
             <div className='connection'>

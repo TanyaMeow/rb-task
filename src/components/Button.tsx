@@ -1,5 +1,5 @@
 import {useContext} from "react";
-import {SetPopupOpenContext} from "../context/PopupContext";
+import {setOpen, SetPopupOpenContext} from "../context/PopupContext";
 
 interface PropsButton {
     text: string,
@@ -7,7 +7,7 @@ interface PropsButton {
 }
 
 export function Button(props: PropsButton) {
-    const setOpenPopup = useContext(SetPopupOpenContext);
+    const setOpenPopup: setOpen = useContext(SetPopupOpenContext);
 
     return (
         <>

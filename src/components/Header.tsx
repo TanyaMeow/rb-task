@@ -3,13 +3,13 @@ import {Navigation} from "./Navigation";
 import {useEffect, useState} from "react";
 
 export function Header() {
-    const [clickMenu, setClickMenu] = useState(false);
-    const [matches, setMatches] = useState(window.matchMedia("(min-width: 550px").matches);
+    const [clickMenu, setClickMenu] = useState<boolean>(false);
+    const [matches, setMatches] = useState<boolean>(window.matchMedia("(min-width: 550px").matches);
 
-    useEffect(() => {
+    useEffect((): void => {
         window.matchMedia(
             "(min-width: 540px)").addEventListener('change',
-            (e) => setMatches(e.matches)
+            (e: MediaQueryListEvent) => setMatches(e.matches)
         );
     })
 

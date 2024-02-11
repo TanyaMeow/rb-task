@@ -1,11 +1,11 @@
 import closeLight from '../image/button_close-light.svg';
 import {Button} from "./Button";
 import {useContext} from "react";
-import {PopupContext, SetPopupOpenContext} from "../context/PopupContext";
+import {PopupContext, setOpen, SetPopupOpenContext} from "../context/PopupContext";
 
 export function Popup() {
     const open: boolean = useContext(PopupContext);
-    const setClosePopup = useContext(SetPopupOpenContext);
+    const setClosePopup: setOpen = useContext(SetPopupOpenContext);
 
     return (
         <div className='popup_block' style={{display: open ? 'flex' : 'none'}}>
