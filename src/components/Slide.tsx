@@ -26,7 +26,10 @@ export function Slide() {
                         <Button text='Подробнее' class='more mobile'/>
                     </div>
                 </div>
-            <img className='picture_slider' src={doctor} alt=""/>
+            <img className='picture_slider'
+                 src={doctor}
+                 alt="Доктор заполняет карту"
+                 title="Доктор"/>
             </div>
 
     )

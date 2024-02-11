@@ -14,7 +14,7 @@ export function Greeting() {
             </div>
             <picture>
                 <source srcSet={bkcn375w} media='(max-width: 380px)'/>
-                <img className='greet_image' src={bkcn950w} alt=""/>
+                <img className='greet_image' src={bkcn950w} alt="Приветственное изображение" title="Приветственное изображение"/>
             </picture>
         </div>
     )

@@ -1,5 +1,5 @@
-import expand from "../image/Кнопка _Развернуть_.svg";
-import turn from "../image/Кнопка_Свернуть.svg";
+import expand from "../image/svg/Кнопка _Развернуть_.svg";
+import turn from "../image/svg/Кнопка_Свернуть.svg";
 
 // @ts-ignore
 import purify from "dompurify";
@@ -25,12 +25,14 @@ export function Question(props: QuestionProps) {
             <button onClick={() => setActive(true)}
                     style={{display: active ? 'none' : 'block'}}>
                 <img src={expand}
-                     alt=""/>
+                     alt="Раскрыть текст часто задаваемого вопроса"
+                     title="Раскрыть ответ"/>
             </button>
             <button onClick={() => setActive(false)}
                     style={{display: active ? 'block' : 'none'}}>
                 <img src={turn}
-                     alt=""/>
+                     alt="Свернуть текст часто задаваемого вопроса"
+                     title="Свернуть ответ"/>
             </button>
         </div>
     )

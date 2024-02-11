@@ -1,4 +1,4 @@
-import closeLight from '../image/button_close-light.svg';
+import closeLight from '../image/svg/button_close-light.svg';
 import {Button} from "./Button";
 import {useContext} from "react";
 import {PopupContext, setOpen, SetPopupOpenContext} from "../context/PopupContext";
@@ -13,7 +13,7 @@ export function Popup() {
                 <div className='popup_container'>
                     <div onClick={() => setClosePopup(false)}
                          className='popup_close'>
-                        <img src={closeLight} alt=""/>
+                        <img src={closeLight} alt="Закрыть модальное окно записи" title="Закрыть модальное окно"/>
                     </div>
                     <div className='popup_body'>
                         <div className='popup_title'>
