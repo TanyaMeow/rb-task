@@ -29,6 +29,7 @@
 
     .info_greeting {
         height: 261px;
+        padding: 0;
     }
 
     .greet_title {

@@ -4,6 +4,13 @@
     }
 }
 
+@media (max-width: 725px) {
+    .button_header-container {
+        display: none;
+    }
+}
+
+
 @media (max-width: 540px) {
     .header {
         position: fixed;

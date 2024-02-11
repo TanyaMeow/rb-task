@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 490px) {
+    .question_block {
+        margin-bottom: 35px;
+    }
+
     .question_block-title {
         text-align: left;
         font-size: 26px;
