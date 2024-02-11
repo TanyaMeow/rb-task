@@ -27,7 +27,7 @@ export function Connection(props: any) {
                                     class='header-button green'/>
                         </div>)}
                     {props.matches &&
-                        (<div>
+                        (<div className='button_header-container'>
                             <Button text='Записаться на прием'
                                     class='header-button green'/>
                         </div>)}
